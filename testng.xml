@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/apple/Documents/SeleniumExercise/SeleniumDemo">
+<suite name="Test Suite" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
+    <test name="Check for Messaging Functionality" annotations="JDK">
         <classes>
             <class name="com.allure.example.runners.Run"/>
         </classes>
