@@ -1,6 +1,6 @@
 Feature: Messaging between Provider and Patient
 
-  Background: Open Altais Websites
+  Background: Open Altais Website
 
     @messaging
     Scenario Outline: The user should be able to create conversation
